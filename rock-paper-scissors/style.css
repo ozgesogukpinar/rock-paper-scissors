@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section {
+    height: 100vh;
+    text-align: center;
+    background-color: grey;
+    font-family: sans-serif;
+}
+.score {
+    height: 25vh;
+    color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.score h1 {
+    color: black;
+    font-size: 25px;
+}
+.score p {
+    color: black;
+    font-size: 25px;
+    text-align: center;
+    padding: 10px;
+}
+.first_page {
+    height: 25vh;
+    color: black;
+    display: flex;
+    justify-content: space-around;
+}
+.second_page {
+    height: 25vh;
+    color: black;
+    display: flex;
+    justify-content: space-around;
+}
+.first_page button{
+    width: 100px;
+    height: 25px;
+    background: 0ch;
+    border: 0ch;
+    background-color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    color: black;
+}
+.victor{
+    align-items: center;
+    text-align: center;
+}
+.second_page button{
+    width: 100px;
+    height: 25px;
+    background: 0ch;
+    border: 0ch;
+    background-color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    color: black;
+    align-items: center;
+}
+.view,.buttons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
